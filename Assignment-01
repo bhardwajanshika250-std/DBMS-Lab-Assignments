@@ -2,6 +2,9 @@
 -- Roll Number: 2410303087
 -- Assignment: Assignment 1
 
+#CREATING A TABLE AND ADDING ROWS
+
+
 CREATE TABLE student (roll_no INT, name VARCHAR(30), marks INT);
 
 INSERT INTO student (roll_no, name, marks) VALUES 
