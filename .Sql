@@ -1,0 +1,16 @@
+-- Name: Anshika
+-- Roll Number: 2410303087
+-- Assignment: Assignment 3
+#SELECTING COLOUMNS ABD ROWS WITH WHERE:
+
+CREATE TABLE student (roll_no INT, name VARCHAR(30), marks INT);
+INSERT INTO student (roll_no, name, marks) VALUES (101, 'Asha', 78), (102, 'Rohan', 64), (103, 'Neha', 88), (104, 'Deepak', 52);
+
+-- Task 1
+SELECT name, marks FROM student;
+
+-- Task 2
+SELECT * FROM student WHERE marks > 60;
+
+-- Task 3
+SELECT name FROM student WHERE roll_no = 103;
